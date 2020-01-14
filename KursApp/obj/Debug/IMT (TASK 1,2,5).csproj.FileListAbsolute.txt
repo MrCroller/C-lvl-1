@@ -1,0 +1,5 @@
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\KursApp\bin\Debug\KursApp.exe.config
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\KursApp\bin\Debug\KursApp.exe
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\KursApp\bin\Debug\KursApp.pdb
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\KursApp\obj\Debug\KursApp.exe
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\KursApp\obj\Debug\KursApp.pdb
