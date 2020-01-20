@@ -10,40 +10,24 @@ namespace KursApp
     {
         static void Main(string[] args)
         {
-            // Задача 1
+            int x, y, z, min;
+            Console.WriteLine("Введите первое число.");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите второе число.");
+            y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите третье число.");
+            z = Convert.ToInt32(Console.ReadLine());
 
-            //Ввод данных
-            Console.Write("Заполнение анкеты. ");
-            Console.Write("Напиши свое имя: ");
-            string fName = Console.ReadLine();
-            Console.Write("Фамилию: ");
-            string lName = Console.ReadLine();
-            Console.Write("Город: ");
-            string sity = Console.ReadLine();
-            Console.Write("Возраст: ");
-            string age = Console.ReadLine();
-            Console.Write("Рост: ");
-            string h = Console.ReadLine();
-            Console.Write("Вес: ");
-            string wt = Console.ReadLine();
+            min = x;
+             if(y < x && y < z)
+            {
+                min = y;
+            } else if (z < x && z < y)
+            {
+                min = z;
+            }
 
-
-            // Задача 5
-            Console.SetCursorPosition(20,15);
-            //Вывод данных6
-            Console.WriteLine($"Имя: {fName}| Фамилия: {lName}| Город: {sity}| Возраст: {age}| Рост: {h}| Вес: {wt}");
-
-
-            // Задача 2
-
-            //Рассчет ИМТ
-            double wtNum = double.Parse(wt);
-            double hNum = double.Parse(h);
-            hNum = hNum / 100;
-            double imt = wtNum / (hNum*hNum);
-            Console.SetCursorPosition(45, 16); //Не, ну это для красоты
-            Console.WriteLine("Ваш индекс массы тела = " + String.Format("{0:0.0}", imt));
-
+            Console.WriteLine($"Минимальное число: {min}");
 
             Console.ReadKey();
         }
