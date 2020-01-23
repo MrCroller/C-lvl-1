@@ -15,7 +15,7 @@ namespace TASK_3
             int k = 0;
             while (a != 0 )
             {
-                if (a > 0 && a % 2 != 0) { k = k + a; }
+                if (a > 0 && a % 2 == 1) { k =+ a; }
                 a = int.Parse(Console.ReadLine());
             }
 

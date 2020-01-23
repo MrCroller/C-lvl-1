@@ -15,18 +15,24 @@ namespace TASK_2
 
             Console.WriteLine("Введите число.");
             string x = Console.ReadLine();
+            z = Method(ref count, x);
 
-            if( int.TryParse(x, out z))
+            Console.ReadKey();
+        }
+
+        private static int Method(ref int count, string x)
+        {
+            int z;
+            if (int.TryParse(x, out z))
             {
-                foreach( char i in x)
+                foreach (char i in x)
                 {
-                     if (i >= '0' && i <= '9') count++;
+                    if (i >= '0' && i <= '9') count++;
                 }
             }
 
             Console.WriteLine($" Символов в числе: {count}");
-
-            Console.ReadKey();
+            return z;
         }
     }
 }
