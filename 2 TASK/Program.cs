@@ -16,30 +16,25 @@ namespace _2_TASK
             else return false;
         }
         */
-
-            //Неудачная попытка сделать проверку на число
-        public static int Summ()
-        {
-            //string s = Console.ReadLine();
-            //int h;
-            //var result = TryParse(s, out h);
-            //Console.WriteLine(result ? " " : "Не число");
-            int a = int.Parse(Console.ReadLine());
-            int k = 0;
-            while (a != 0)
-            {
-                
-                //Console.WriteLine(result ? " " : "Не число");
-                if (a > 0 && a % 2 == 1) { k = k + a; }
-                a = int.Parse(Console.ReadLine());
-                
-            } 
-            return k;
-        }
+        
         static void Main(string[] args)
         {
+
+            string result = String.Empty;
+
+            int sum = 0;
+
+
             Console.WriteLine("Вводите числа. 0 прекращает ввод");
-            Console.WriteLine($"Сумма всех нечетных положительных чисел: {Summ()}");
+            while (true)
+            {
+                int a;
+                int.TryParse(Console.ReadLine(), out a);
+                if (a == 0) break;
+
+                if (a > 0 && a % 2 == 1) { sum += a; }
+            }
+            Console.WriteLine($"Сумма всех нечетных положительных чисел: {sum}");
             Console.ReadKey();
         }
     }

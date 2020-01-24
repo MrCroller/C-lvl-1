@@ -6,49 +6,29 @@ using System.Threading.Tasks;
 
 namespace _1_TASK
 {
-     class Complex
-     {
-            public double im;
-            public double re;
-
-            public Complex Minus(Complex x)
-            {
-            Complex y = new Complex();
-                y.im = im + x.im;
-                y.re = re - x.re;
-                return y;
-            }
-            public Complex Multi(Complex x)
-            {
-            Complex y = new Complex();
-                y.re = re * x.im - im * x.re;
-                y.re = re * x.re - im * x.im;
-                return y;
-            }
-            public override string ToString()
-            {
-                return re + "+" + im + "i";
-            }
-        }
-     class Program
+    class Program
       {
         static void Main(string[] args)
         {
-            Complex complex1 = new Complex() { re = 1, im = 2};
+            Complex complex1 = new Complex(2, 3);
 
             Console.WriteLine($"complex1 = {complex1}");
 
-            Complex complex2 = new Complex() { re = 2, im = 2};
+            Complex complex2 = new Complex(-1, 1);
 
             Console.WriteLine($"complex1 = {complex2}");
 
-            Complex result = complex1.Minus(complex2);
-            Console.WriteLine($"complex1 - complex2 = {result}");
+            Complex result = new Complex();
 
-
-            result = complex1.Multi(complex2);
-            Console.WriteLine($"complex1 * complex2 = {result}");
-
+            Console.WriteLine("- *");
+            string o = Console.ReadLine();
+            switch (o)
+            {
+                case "-": result = complex1.Minus(complex2); break;
+                case "*": result = complex1.Multi(complex2); break;
+                default: Console.WriteLine("Такой операции нет"); break;
+            }
+            Console.WriteLine(result.ToString());
 
             Console.ReadKey();
         }
