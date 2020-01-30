@@ -1,0 +1,6 @@
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\Kurs\Lesson4_02\bin\Debug\Lesson4_02.exe.config
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\Kurs\Lesson4_02\bin\Debug\Lesson4_02.exe
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\Kurs\Lesson4_02\bin\Debug\Lesson4_02.pdb
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\Kurs\Lesson4_02\obj\Debug\Lesson4_02.csprojAssemblyReference.cache
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\Kurs\Lesson4_02\obj\Debug\Lesson4_02.exe
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\Kurs\Lesson4_02\obj\Debug\Lesson4_02.pdb
