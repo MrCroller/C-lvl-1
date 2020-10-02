@@ -1,0 +1,6 @@
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\Distance X1 and X2\obj\Debug\Distance X1 and X2.csprojAssemblyReference.cache
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\Distance X1 and X2\bin\Debug\Distance X1 and X2.exe.config
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\Distance X1 and X2\bin\Debug\Distance X1 and X2.exe
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\Distance X1 and X2\bin\Debug\Distance X1 and X2.pdb
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\Distance X1 and X2\obj\Debug\Distance X1 and X2.exe
+C:\Users\Arhitech\Desktop\Курс\C#\Продвинутый\KursApp\Distance X1 and X2\obj\Debug\Distance X1 and X2.pdb
